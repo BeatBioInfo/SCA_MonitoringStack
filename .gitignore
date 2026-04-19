@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment files (never commit secrets)
+.env
+*.env
+
+# Docker volumes (shouldn't appear locally, but just in case)
+prometheus-data/
+grafana-data/
+loki-data/
+
+# Logs
+*.log
+
+# OS/editor junk
+*.swp
+*.swo
+*~
